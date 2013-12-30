@@ -3,6 +3,20 @@ Angular-Parse
 
 Angular-Parse is a set of services for using Parse query and objects saving inside angular lifecycle using `promises` and without the hassle of using `$scope.$apply` 
 
+# Installing 
+
+via [npm](https://npmjs.org/)
+
+```Shell
+$ npm install angularparse
+```
+
+via [Bower](http://bower.io/)
+
+```Shell
+$ bower install angularparse
+```
+
 
 # Quick Start
 
