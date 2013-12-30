@@ -110,6 +110,21 @@ The `parsePersistence.persist(obj, data, fnc)` method:
 
 Also, `parsePersistence` has some auxiliary methods acting as shortcuts for `parseQuery.persist`: `save` and `destroy`.
 
+## Developers
+
+configure:
+
+```Shell
+$ npm install
+```
+
+compile:
+
+```Shell
+$ grunt build
+```
+
+
 # Authors
 
 **Felipe Sabino**
