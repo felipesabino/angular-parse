@@ -17,6 +17,9 @@ via [Bower](http://bower.io/)
 $ bower install angularparse
 ```
 
+# Demo
+
+Check this [plnkr demo](http://plnkr.co/edit/4gPGZJ) for a working example
 
 # Quick Start
 
