@@ -1,0 +1,24 @@
+{
+  "name": "angularparse",
+  "description": "Services for using Parse query and objects saving inside angular lifecycle",
+  "version": "0.1.0",
+  "homepage": "https://github.com/felipesabino/angular-parse",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "build": "grunt build"
+  },
+  "author": {
+    "name": "Felipe Sabino",
+    "email": "felipe@sabino.me",
+    "url": "http://felipe.sabino.me/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/danheberden/gith/blob/master/LICENSE-MIT"
+    }
+  ]
+}
