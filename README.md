@@ -1,9 +1,9 @@
 Angular-Parse
 ===
 
-Angular-Parse is a set of services for using Parse query and objects saving inside angular lifecycle using `promises` and without the hassle of using `$scope.$apply` 
+Angular-Parse is a set of services for using Parse query and objects saving inside angular lifecycle using `promises` and without the hassle of using `$scope.$apply`
 
-# Installing 
+# Installing
 
 via [npm](https://npmjs.org/)
 
@@ -52,7 +52,7 @@ var query = parseQuery.new('TestObject');
 parseQuery.find(query).then(function(results) {
   // do something with the query execution results
 }, function(error) {
-  // do something with the returning error 
+  // do something with the returning error
 });
 ```
 
@@ -68,7 +68,7 @@ The `parseQuery.query(query, options, fnc)` method:
 
 
 Also, `parseQuery` has some auxiliary methods acting as shortcuts for `parseQuery.query`: `find`, `count` and `total`
- 
+
 
 ### `parsePersistence`
 
@@ -90,10 +90,10 @@ var myObject = parsePersistence.new('TestObject');
 - Saving Data
 
 ```
-parsePersistence.save(myObject, {foo: "bar promise"}).then(function(object) { 
+parsePersistence.save(myObject, {foo: "bar promise"}).then(function(object) {
   // do something with the returning object
 }, function(error) {
-  // do something with the returning error 
+  // do something with the returning error
 });
 ```
 
@@ -133,6 +133,15 @@ $ grunt build
 + http://github.com/felipesabino
 
 
+# Changelog
+
+- 0.2.0
+
+  - Fixed `get` method missing at compiled JS
+
+- 0.1.0
+
+  - Initial Release
 
 # Copyright and license
 

@@ -1,7 +1,7 @@
 {
   "name": "angularparse",
   "description": "Services for using Parse query and objects saving inside angular lifecycle",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/felipesabino/angular-parse",
   "engines": {
     "node": ">= 0.8.0"
