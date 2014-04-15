@@ -1,6 +1,6 @@
-/*! angularparse - v0.1.0 - 2013-12-30
+/*! angularparse - v0.1.0 - 2014-04-15
 * https://github.com/felipesabino/angular-parse
-* Copyright (c) 2013 Felipe Sabino
+* Copyright (c) 2014 Felipe Sabino
 * Licensed MIT */
 (function() {
   'use strict';
@@ -77,7 +77,7 @@
           return defered.promise;
         }
       };
-      angular.forEach(['find', 'count'], function(fnc) {
+      angular.forEach(['find', 'count', 'get'], function(fnc) {
         return result[fnc] = function(query, options) {
           return result.query(query, options, fnc);
         };
